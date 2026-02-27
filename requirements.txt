@@ -1,0 +1,31 @@
+# AutoML Systémique - Dépendances
+# Installation : pip install -r requirements.txt
+
+# ---- Optimisation bayésienne (SMAC3 + Hyperband) ----
+smac>=2.0.0
+
+# ---- Machine Learning ----
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+
+# ---- Datasets ----
+openml>=0.14.0
+
+# ---- Data manipulation ----
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+
+# ---- Visualisation ----
+plotly>=5.17.0
+matplotlib>=3.7.0
+
+# ---- Interface web ----
+streamlit>=1.28.0
+
+# ---- Configuration space (utilisé par SMAC) ----
+ConfigSpace>=0.7.0
+
+# ---- Utilitaires ----
+tqdm>=4.66.0
+joblib>=1.3.0
