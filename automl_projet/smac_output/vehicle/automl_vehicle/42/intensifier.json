@@ -1,0 +1,140 @@
+{
+  "incumbent_ids": [
+    4
+  ],
+  "rejected_config_ids": [
+    2,
+    3,
+    1,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "incumbents_changed": 2,
+  "trajectory": [
+    {
+      "config_ids": [
+        1
+      ],
+      "costs": [
+        0.22606829792026575
+      ],
+      "trial": 1,
+      "walltime": 0.07186436653137207
+    },
+    {
+      "config_ids": [
+        4
+      ],
+      "costs": [
+        0.16616525930636747
+      ],
+      "trial": 4,
+      "walltime": 7.742677211761475
+    }
+  ],
+  "state": {
+    "tracker": {
+      "0,1": [
+        [
+          0,
+          [
+            {
+              "algorithm": "linear_model",
+              "dt_criterion": "gini",
+              "dt_max_depth": 2,
+              "dt_min_samples_split": 16,
+              "et_max_depth": 5,
+              "et_min_samples_split": 15,
+              "et_n_estimators": 378,
+              "gb_learning_rate": 0.0316417019548,
+              "gb_max_depth": 9,
+              "gb_n_estimators": 69,
+              "gb_subsample": 0.7591648261819,
+              "knn_metric": "manhattan",
+              "knn_n_neighbors": 26,
+              "knn_weights": "uniform",
+              "linear_C": 1.3787072988532,
+              "linear_alpha": 27.1072677029222,
+              "rf_max_depth": 20,
+              "rf_max_features": "log2",
+              "rf_min_samples_leaf": 10,
+              "rf_min_samples_split": 9,
+              "rf_n_estimators": 13,
+              "svm_C": 8.0235273046788,
+              "svm_gamma": "scale",
+              "svm_kernel": "linear",
+              "xgb_learning_rate": 0.263211675039,
+              "xgb_max_depth": 2,
+              "xgb_n_estimators": 121,
+              "xgb_subsample": 0.5238580638458
+            },
+            {
+              "algorithm": "svm",
+              "dt_criterion": "gini",
+              "dt_max_depth": 15,
+              "dt_min_samples_split": 20,
+              "et_max_depth": 28,
+              "et_min_samples_split": 9,
+              "et_n_estimators": 30,
+              "gb_learning_rate": 0.0272246753311,
+              "gb_max_depth": 5,
+              "gb_n_estimators": 138,
+              "gb_subsample": 0.9202198159902,
+              "knn_metric": "manhattan",
+              "knn_n_neighbors": 40,
+              "knn_weights": "uniform",
+              "linear_C": 0.0010547756978,
+              "linear_alpha": 0.0539175279121,
+              "rf_max_depth": 13,
+              "rf_max_features": "sqrt",
+              "rf_min_samples_leaf": 8,
+              "rf_min_samples_split": 19,
+              "rf_n_estimators": 17,
+              "svm_C": 2.4073546183882,
+              "svm_gamma": "auto",
+              "svm_kernel": "rbf",
+              "xgb_learning_rate": 0.2077773286328,
+              "xgb_max_depth": 6,
+              "xgb_n_estimators": 291,
+              "xgb_subsample": 0.704367085549
+            },
+            {
+              "algorithm": "decision_tree",
+              "dt_criterion": "entropy",
+              "dt_max_depth": 19,
+              "dt_min_samples_split": 5,
+              "et_max_depth": 7,
+              "et_min_samples_split": 13,
+              "et_n_estimators": 24,
+              "gb_learning_rate": 0.0620892129573,
+              "gb_max_depth": 9,
+              "gb_n_estimators": 13,
+              "gb_subsample": 0.5171942605576,
+              "knn_metric": "manhattan",
+              "knn_n_neighbors": 29,
+              "knn_weights": "distance",
+              "linear_C": 40.6790849435955,
+              "linear_alpha": 0.0877781550472,
+              "rf_max_depth": 29,
+              "rf_max_features": "sqrt",
+              "rf_min_samples_leaf": 8,
+              "rf_min_samples_split": 18,
+              "rf_n_estimators": 107,
+              "svm_C": 0.6277730916958,
+              "svm_gamma": "auto",
+              "svm_kernel": "rbf",
+              "xgb_learning_rate": 0.2768720547162,
+              "xgb_max_depth": 10,
+              "xgb_n_estimators": 34,
+              "xgb_subsample": 0.8777755692715
+            }
+          ]
+        ]
+      ]
+    },
+    "next_bracket": 1
+  }
+}
